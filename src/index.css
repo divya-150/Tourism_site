@@ -1,0 +1,50 @@
+.mainTitle {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 20px 0;
+  color: rgb(160, 127, 127);
+}
+
+.hero {
+  background: url('https://your-hero-image-url.com') no-repeat center center/cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cityImage {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card {
+  width: 250px;
+  background: rgb(139, 74, 74);
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.detailsContainer {
+  text-align: center;
+  padding: 20px;
+}
+
+.detailsImage {
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+}
